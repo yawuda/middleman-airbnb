@@ -1,11 +1,16 @@
 #home {
-  background-color: #D23333;
+  background-color: $white;
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  background-image: url("https://unsplash.it/800");
+  background-size: 80% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+
   p {
     margin-top: 1.5em;
   }
